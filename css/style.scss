@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
 
+html, body {
+  color: #191919;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 header {
   background-color: #F0EFE9;
   padding: 16px;
@@ -52,6 +59,8 @@ header {
 
           i {
             margin-right: 5px;
+            font-size: 1.2em;
+            color: #666666;
           }
 
           &.last {
@@ -61,6 +70,11 @@ header {
         }
       }
 
+      .social-media {
+        a {
+          color: #666666;
+        }
+      }
     }
   
   }

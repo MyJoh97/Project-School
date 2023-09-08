@@ -57,7 +57,6 @@ header .container .menu .top-menu .contact-information .content-box {
 header .container .menu .top-menu .contact-information .content-box i {
   margin-right: 5px;
   font-size: 1.2em;
-  color: #666666;
 }
 header .container .menu .top-menu .contact-information .content-box.last {
   border: none;
@@ -69,4 +68,31 @@ header .container .menu .top-menu .social-media a {
 }
 header .container .menu .top-menu .social-media a:hover {
   color: #666666;
+}
+header .container .menu .main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+header .container .menu .main-menu nav a {
+  display: inline-block;
+  color: #191919;
+  text-decoration: none;
+  margin-right: 35px;
+  position: relative;
+}
+header .container .menu .main-menu nav a.active {
+  font-weight: 500px;
+}
+header .container .menu .main-menu nav a.active::after, header .container .menu .main-menu nav a:hover::after {
+  content: "";
+  position: absolute;
+  font-weight: 500;
+  height: 2px;
+  width: 15px;
+  background-color: #191919;
+  left: 50%;
+  bottom: -3px;
+  transform: translate(calc(50% - 15px));
 }

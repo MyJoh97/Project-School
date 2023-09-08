@@ -42,10 +42,12 @@ header {
       justify-content: space-between;
       padding-bottom: 10px;
       border-bottom: 1px solid #DAD9D3;
+      align-items: center;
       
 
       .contact-information {
         display: flex;
+        align-items: center;
         
         
         
@@ -72,7 +74,13 @@ header {
 
       .social-media {
         a {
-          color: #666666;
+          color: #191919;
+          font-size: 1.3rem;
+          margin-left: 10px;
+
+          &:hover {
+            color: #666666;
+          }
         }
       }
     }

@@ -40,9 +40,11 @@ header .container .menu .top-menu {
   justify-content: space-between;
   padding-bottom: 10px;
   border-bottom: 1px solid #DAD9D3;
+  align-items: center;
 }
 header .container .menu .top-menu .contact-information {
   display: flex;
+  align-items: center;
 }
 header .container .menu .top-menu .contact-information .content-box {
   padding-right: 30px;
@@ -61,5 +63,10 @@ header .container .menu .top-menu .contact-information .content-box.last {
   border: none;
 }
 header .container .menu .top-menu .social-media a {
+  color: #191919;
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
+header .container .menu .top-menu .social-media a:hover {
   color: #666666;
 }

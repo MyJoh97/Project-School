@@ -41,6 +41,8 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 70px;
+  margin-left: 299px;
+  margin-right: 298px;
 
   .menu-bars {
     border: none;
@@ -169,27 +171,39 @@ header {
 
 .showcase {
   background-color: #F0EFE9;
-  
+ 
 
   .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
+    margin-left: 299px;
+    margin-right: 298px;
+    padding-top: 40px;
     
 
     .content {
+      
       h1 {
         font-family: 'DM Sans', sans-serif;;
         font-weight: 700;
         font-size: 86px;
+        
+        
       }
 
       p {
-
+        font-size: 20px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        
+        
+        
       }
 
       a {
-
+        margin-right: 5px;
+        
       }
 
 

@@ -36,6 +36,8 @@ header .container {
   align-items: center;
   justify-content: space-between;
   gap: 70px;
+  margin-left: 299px;
+  margin-right: 298px;
 }
 header .container .menu-bars {
   border: none;
@@ -134,10 +136,20 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .showcase .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin-left: 299px;
+  margin-right: 298px;
+  padding-top: 40px;
 }
 .showcase .container .content h1 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 86px;
+}
+.showcase .container .content p {
+  font-size: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.showcase .container .content a {
+  margin-right: 5px;
 }
